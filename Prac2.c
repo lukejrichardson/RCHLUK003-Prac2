@@ -12,5 +12,11 @@ int main(){
 	printf("Date: %d\n", YEAR);
 	printf("*****************************\n");
 	
+	int dec;
+	
+	printf("Enter a decimal value: ");
+	scanf("%d", &dec);
+	printf("The number you have entered is %d", dec);
+	
     return 0;
 }
