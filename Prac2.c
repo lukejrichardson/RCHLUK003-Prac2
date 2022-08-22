@@ -31,6 +31,7 @@ int main(){
 		scanf("%d", &rad);
 		printf("The radix you have entered is %d\n", rad);
 		printf("The log2 of the number is %.2f\n", log2f(dec));
+		printf("The integer result of the number divided by %d is %d\n", rad, dec/rad);
 		
 	}
 
